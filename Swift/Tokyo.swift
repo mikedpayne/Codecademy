@@ -1,7 +1,7 @@
 // Write your code below 🚇
 
-var subwayAdult = [Int]()
+var subwayAdult = [800, 1200, 1500]
 print(subwayAdult)
 
-var subwayChild = [Int]()
+var subwayChild:[Int] = [400, 600, 750]
 print(subwayChild)

@@ -3,5 +3,11 @@ struct Book {
   var title = ""
 }
 
-// Write your code below: 📚
 var myFavBook = Book()
+
+// Write your code below: 📚
+print(myFavBook.pages)
+myFavBook.pages = 640
+print(myFavBook.pages)
+myFavBook.title = "Treasure Island"
+print(myFavBook.title)

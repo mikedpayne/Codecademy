@@ -29,3 +29,4 @@ var journey = Band(genre: "rock", members: 5, isActive: true)
 // Add your code below 📻  
 print(type(of: journey))
 
+var bts: Band = Band(genre: "kpop", members: 7, isActive: true)

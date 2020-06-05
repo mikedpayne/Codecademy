@@ -9,3 +9,5 @@ struct Book {
   }
 
 }
+
+var theHobbit = Book(title: "The Hobbit", pages: 300)

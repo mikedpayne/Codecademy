@@ -1,6 +1,7 @@
 struct Book {
-  // Add your code below 📚
-  var title = ""
   var pages = 0
-  
+  var title = ""
 }
+
+// Write your code below: 📚
+var myFavBook = Book()

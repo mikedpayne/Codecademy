@@ -3,16 +3,20 @@ class Restaurant {
   var type = [""]
   var rating = 0.0
   var delivery = false
+
+  // The init() goes here 🍝
+  init(name: String, type: [String], rating: Double, delivery: Bool) {
+    self.name = name
+    self.type = type
+    self.rating = rating
+    self.delivery = delivery
+  }
+  
 }
 
-// Write your code below 🍝
-var bobsBurgers = Restaurant()
-bobsBurgers.name = "Bob's Burgers"
-bobsBurgers.type = ["Burgers", "Fast Food"]
-bobsBurgers.rating = 3.5
-bobsBurgers.delivery = true
+var laRatatouille = Restaurant(name: "La Ratatouille", type: ["French"], rating: 4.7, delivery: false)
 
-print(bobsBurgers.name)
-print(bobsBurgers.type)
-print(bobsBurgers.rating)
-print(bobsBurgers.delivery)
+print(laRatatouille.name)
+print(laRatatouille.type)
+print(laRatatouille.rating)
+print(laRatatouille.delivery)

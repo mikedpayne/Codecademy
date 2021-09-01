@@ -8,6 +8,10 @@ fun main() {
   var height = 14
   
   // Write more code below
+  fun pyramidVolume(l: Int, w: Int, h: Int) = (l * w * h) / 3
 
+  var volume = pyramidVolume(length, width, height)
+
+  println("The volume of this pyramid is $volume.")
   
 }
